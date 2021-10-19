@@ -1,0 +1,2497 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: sans-serif;
+    margin: auto;
+    color: #777;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+div.container {
+    width: 1110px;
+    margin: auto;
+}
+
+button.content_btn {
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: rgba(132, 96, 246, 0.8);
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.content_btn a {
+    text-decoration: none;
+}
+
+button.content_btn a span {
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+header div.header_info button.content_btn:hover a span,
+section.keep form button:hover a span {
+    padding-left: 20px;
+}
+
+nav {
+   
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+     background-color: rgb(101 72 203 / 80%);
+}
+
+nav div.logo {
+    width: 70%;
+    float: left;
+}
+
+nav div.logo img {
+    width: 13%;
+    padding: 10px 0;
+}
+
+nav div.list {
+    width: 30%;
+    float: left;
+}
+
+nav div.list ul {}
+
+nav div.list ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+nav div.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+nav div.list ul li:last-child {
+    padding-right: 0;
+}
+
+nav div.list ul li:hover a {
+    color: #f3487f;
+}
+
+header {
+    width: 100%;
+    height: 630px;
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+header div.overlay_bg {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(132, 96, 246, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header div.header_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+header div.header_info h4.content_head {
+    font-size: 55px;
+    line-height: 57px;
+    margin: 0 0 23px;
+    font-weight: 100;
+}
+
+header div.header_info p.content_p {
+    font-size: 14px;
+    margin: 40px 0 50px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section.history {
+    width: 100%;
+    height: 850px;
+    background-color: #f2f5f7;
+    padding: 90px 0;
+
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+section.history div.heading h2 {
+
+    /* font-weight:bold; */
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    color: #222222;
+    line-height: 1.5em;
+}
+
+section.history div.heading p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+section.history div.history_desc {
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+div.history_img {
+    width: 33.33%;
+    float: left;
+
+
+}
+
+div.history_img img {
+    margin: -40px 20px;
+}
+
+section.history div.history_desc div.history_info {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    margin-left: 7%;
+}
+
+section.history div.history_desc div.history_info div.btn_list {
+    margin: 30px 0;
+}
+
+section.history div.history_desc div.history_info div.btn_list button {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    margin: 0 15px 15px 15px;
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span {
+    color: rgba(132, 96, 246, 0.8);
+    text-transform: uppercase;
+    padding-left: 5px;
+
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span i.fa {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover,
+section.history div.history_desc div.history_info div.btn_list button:first-child {
+    background-color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover a span,
+section.history div.history_desc div.history_info div.btn_list button:first-child a span {
+    color: white;
+}
+
+section.history div.history_desc div.history_info h3 {
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+section.history div.history_desc div.history_info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+section.skills {
+    width: 100%;
+    height: 520px;
+    background: #f3487f;
+}
+
+section.skills div.skills_block {
+    width: 25%;
+    height: 260px;
+    float: left;
+    text-align: center;
+}
+
+section.skills div.skills_block.block1,
+section.skills div.skills_block.block3,
+section.skills div.skills_block.block6,
+section.skills div.skills_block.block8 {
+    background: white;
+    line-height: 50px;
+    color: #000;
+    padding-top: 70px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.skills div.skills_block.block1:hover,
+section.skills div.skills_block.block3:hover,
+section.skills div.skills_block.block6:hover,
+section.skills div.skills_block.block8:hover {
+    background: #f3487f;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+section.skills div.skills_block.block1:hover i.fas,
+section.skills div.skills_block.block3:hover i.fas,
+section.skills div.skills_block.block6:hover i.fas,
+section.skills div.skills_block.block8:hover i.fas {
+    color: #fff;
+}
+
+section.skills div.skills_block.block1 h2,
+section.skills div.skills_block.block3 h2,
+section.skills div.skills_block.block6 h2,
+section.skills div.skills_block.block8 h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+section.skills div.skills_block.block1 i.fas,
+section.skills div.skills_block.block3 i.fas,
+section.skills div.skills_block.block6 i.fas,
+section.skills div.skills_block.block8 i.fas {
+    color: #f3487f;
+}
+
+section.skills div.skills_block.block2,
+section.skills div.skills_block.block4,
+section.skills div.skills_block.block5,
+section.skills div.skills_block.block7 {
+    background: #6f7598;
+    color: white;
+    padding: 100px 20px;
+}
+
+section.exp,
+section.projects {
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    margin: auto;
+    font-family: sans-serif;
+    /* background: red; */
+
+}
+
+section.exp p {
+    color: #777;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 40px 0;
+
+    font-family: sans-serif;
+}
+
+section.exp h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #222222;
+    line-height: 1.5em;
+
+    font-family: sans-serif;
+}
+
+section.exp div.vector {}
+
+section.exp div.vector div.vector_img {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+section.exp div.vector div.vector_img img {
+    width: 80%;
+}
+
+section.exp div.vector div.vector_desc {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+section.exp div.vector div.vector_desc p,
+section.exp div.vector div.vector_desc h5,
+section.exp div.vector div.vector_desc h2 {
+    text-align: left;
+}
+
+section.exp div.vector div.vector_desc p {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: -23px;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h5 {
+    font-size: 20px;
+    font-weight: 190;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h2 {
+    /* margin-bottom:10px; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section.exp div.vector_desc button {
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.exp div.vector_desc button span {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.exp div.vector_desc button:hover {
+    background-color: rgba(132, 96, 246, 0.8);
+
+
+}
+
+section.exp div.vector_desc button:hover span {
+    color: white
+}
+
+section.projects {
+    background-color: #5dd1e3;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    height: 650px;
+}
+
+section.projects h2,
+section.keep h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+section.projects p,
+section.keep p {
+    font-size: 18px;
+    padding: 17px 0 40px 0;
+}
+
+section.projects div.projects_block {
+    overflow: auto;
+    width: 100%;
+    height: 290px;
+}
+
+section.projects div.projects_block .block_left {
+    width: 66.67%;
+    height: 100%;
+    background-image: url("../img/c1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+section.projects div.projects_block .block_right {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 40px 40px;
+    color: black;
+    text-align: left;
+
+}
+
+section.projects div.projects_block .block_right h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+section.projects div.projects_block .block_right p {
+    color: #777;
+    font-size: 17px;
+}
+
+section.keep {
+    height: 620px;
+    width: 100%;
+    /* background:red; */
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+
+section.keep h2 {
+    color: black;
+}
+
+section.keep p {}
+
+
+section.keep form {
+    position: relative;
+}
+
+section.keep form input {
+    width: 40%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+
+    margin: 0 1% 25px 1%;
+}
+
+section.keep form textarea {
+
+    width: 82%;
+    height: 106px;
+    margin-bottom: 25px;
+}
+
+section.keep form button {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+    font-family: sans-serif;
+    margin: auto;
+    color: #777;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+div.container {
+    width: 1110px;
+    margin: auto;
+}
+
+button.content_btn {
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: rgba(132, 96, 246, 0.8);
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.content_btn a {
+    text-decoration: none;
+}
+
+button.content_btn a span {
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+header div.header_info button.content_btn:hover a span {
+    padding-left: 20px;
+}
+
+nav {
+    /* background-color: blue; */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+nav div.logo {
+    width: 70%;
+    float: left;
+}
+
+nav div.logo img {
+    width: 13%;
+    padding: 10px 0;
+}
+
+nav div.list {
+    width: 30%;
+    float: left;
+}
+
+nav div.list ul {}
+
+nav div.list ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+nav div.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+nav div.list ul li:last-child {
+    padding-right: 0;
+}
+
+nav div.list ul li:hover a {
+    color: #f3487f;
+}
+
+header {
+    width: 100%;
+    height: 630px;
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+header div.overlay_bg {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(132, 96, 246, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header div.header_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+header div.header_info h4.content_head {
+    font-size: 55px;
+    line-height: 57px;
+    margin: 0 0 23px;
+    font-weight: 100;
+}
+
+header div.header_info p.content_p {
+    font-size: 14px;
+    margin: 40px 0 50px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section.history {
+    width: 100%;
+    height: 850px;
+    background-color: #f2f5f7;
+    padding: 90px 0;
+
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+section.history div.heading h2 {
+
+    /* font-weight:bold; */
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    color: #222222;
+    line-height: 1.5em;
+}
+
+section.history div.heading p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+section.history div.history_desc {
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+div.history_img {
+    width: 33.33%;
+    float: left;
+
+
+}
+
+div.history_img img {
+    margin: -40px 20px;
+}
+
+section.history div.history_desc div.history_info {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    margin-left: 7%;
+}
+
+section.history div.history_desc div.history_info div.btn_list {
+    margin: 30px 0;
+}
+
+section.history div.history_desc div.history_info div.btn_list button {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    margin: 0 15px 15px 15px;
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span {
+    color: rgba(132, 96, 246, 0.8);
+    text-transform: uppercase;
+    padding-left: 5px;
+
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span i.fa {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover,
+section.history div.history_desc div.history_info div.btn_list button:first-child {
+    background-color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover a span,
+section.history div.history_desc div.history_info div.btn_list button:first-child a span {
+    color: white;
+}
+
+section.history div.history_desc div.history_info h3 {
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+section.history div.history_desc div.history_info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+section.skills {
+    width: 100%;
+    height: 520px;
+    background: #f3487f;
+}
+
+section.skills div.skills_block {
+    width: 25%;
+    height: 260px;
+    float: left;
+    text-align: center;
+}
+
+section.skills div.skills_block.block1,
+section.skills div.skills_block.block3,
+section.skills div.skills_block.block6,
+section.skills div.skills_block.block8 {
+    background: white;
+    line-height: 50px;
+    color: #000;
+    padding-top: 70px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.skills div.skills_block.block1:hover,
+section.skills div.skills_block.block3:hover,
+section.skills div.skills_block.block6:hover,
+section.skills div.skills_block.block8:hover {
+    background: #f3487f;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+section.skills div.skills_block.block1:hover i.fas,
+section.skills div.skills_block.block3:hover i.fas,
+section.skills div.skills_block.block6:hover i.fas,
+section.skills div.skills_block.block8:hover i.fas {
+    color: #fff;
+}
+
+section.skills div.skills_block.block1 h2,
+section.skills div.skills_block.block3 h2,
+section.skills div.skills_block.block6 h2,
+section.skills div.skills_block.block8 h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+section.skills div.skills_block.block1 i.fas,
+section.skills div.skills_block.block3 i.fas,
+section.skills div.skills_block.block6 i.fas,
+section.skills div.skills_block.block8 i.fas {
+    color: #f3487f;
+}
+
+section.skills div.skills_block.block2,
+section.skills div.skills_block.block4,
+section.skills div.skills_block.block5,
+section.skills div.skills_block.block7 {
+    background: #6f7598;
+    color: white;
+    padding: 100px 20px;
+}
+
+section.exp,
+section.projects {
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    margin: auto;
+    font-family: sans-serif;
+    /* background: red; */
+
+}
+
+section.exp p {
+    color: #777;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 40px 0;
+
+    font-family: sans-serif;
+}
+
+section.exp h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #222222;
+    line-height: 1.5em;
+
+    font-family: sans-serif;
+}
+
+section.exp div.vector {}
+
+section.exp div.vector div.vector_img {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+section.exp div.vector div.vector_img img {
+    width: 80%;
+}
+
+section.exp div.vector div.vector_desc {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+section.exp div.vector div.vector_desc p,
+section.exp div.vector div.vector_desc h5,
+section.exp div.vector div.vector_desc h2 {
+    text-align: left;
+}
+
+section.exp div.vector div.vector_desc p {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: -23px;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h5 {
+    font-size: 20px;
+    font-weight: 190;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h2 {
+    /* margin-bottom:10px; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section.exp div.vector_desc button,
+section.keep form button {
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.exp div.vector_desc button span,
+section.keep form button span {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.exp div.vector_desc button:hover,
+section.keep form button:hover {
+    background-color: rgba(132, 96, 246, 0.8);
+
+
+}
+
+section.exp div.vector_desc button:hover span,
+section.keep form button:hover span {
+    color: white
+}
+
+section.projects {
+    background-color: #5dd1e3;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    height: 650px;
+}
+
+section.projects h2,
+section.keep h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+section.projects p,
+section.keep p {
+    font-size: 18px;
+    padding: 17px 0 40px 0;
+}
+
+section.projects div.projects_block {
+    overflow: auto;
+    width: 100%;
+    height: 290px;
+}
+
+section.projects div.projects_block .block_left {
+    width: 66.67%;
+    height: 100%;
+    background-image: url("../img/c1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+section.projects div.projects_block .block_right {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 40px 40px;
+    color: black;
+    text-align: left;
+
+}
+
+section.projects div.projects_block .block_right h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+section.projects div.projects_block .block_right p {
+    color: #777;
+    font-size: 17px;
+}
+
+section.keep {
+    height: 620px;
+    width: 100%;
+    /* background:red; */
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+
+section.keep h2 {
+    color: black;
+}
+
+section.keep p {}
+
+
+section.keep form {
+    position: relative;
+    height: 278px;
+}
+
+section.keep form input {
+    width: 40%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+
+    margin: 0 1% 25px 1%;
+}
+
+section.keep form textarea {
+
+    width: 82%;
+    height: 106px;
+    margin-bottom: 25px;
+}
+
+section.keep form button {
+    position: absolute;
+    bottom: 0;
+    left: 77%;
+
+}
+
+section.sub_area {
+    width: 100%;
+    height: 390px;
+    background: #f9c400;
+    padding: 100px 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+section.sub_area h2 {
+    line-height: 1.5em;
+    font-size: 30px;
+}
+
+section.sub_area form {
+    position: relative;
+}
+
+section.sub_area form input {
+    width: 40%;
+    height: 42px;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    margin: 40px 0;
+    border-radius: 20px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+section.sub_area form button {
+    position: absolute;
+    bottom: 40px;
+    left: 54.5%;
+    background-color: white;
+    color: rgba(132, 96, 246, 0.8);
+    border: 1.5px solid #777;
+
+}
+
+section.sub_area form button a span,
+section.sub_area form button a span .fas {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.sub_area form button:hover {
+    background-color: rgba(132, 96, 246, 1);
+    /* background-color:red; */
+
+}
+
+section.sub_area form button:hover a span,
+section.sub_area form button:hover a span .fas {
+    color: white;
+}
+
+footer {
+    padding: 100px 0;
+    width: 100%;
+    height: 600px;
+    background-color: #4e5375;
+    color: white;
+}
+
+footer .footer_list {
+    width: 25%;
+    height: 80%;
+    float: left;
+
+}
+
+.footer_list_img {
+    width: 25%;
+    height: 80%;
+    float: left;
+}
+
+.footer_list_img {
+    overflow: auto;
+}
+
+footer .footer_list .list h3,
+footer .footer_list_img .list h3 {
+    padding: 20px 0;
+}
+
+.footer_list .list ul {
+    list-style: none;
+}
+
+.footer_list .list ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_list .list ul li:hover a {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+.list_img {
+    width: 23%;
+    height: 50%;
+    float: left;
+    margin: 0 1%;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer .footer_bottom {
+
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+}
+
+footer .footer_bottom .copyright {
+    width: 75%;
+    float: left;
+}
+
+footer .footer_bottom .copyright p {
+    color: white;
+    padding-top: 50px;
+}
+
+footer .footer_bottom .copyright p i.fa {
+    color: #f3487f;
+}
+
+footer .footer_bottom .copyright p span {
+    color: #f9c400;
+    ;
+}
+
+footer .footer_bottom .footer_social {
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+    text-align: right;
+}
+
+footer .footer_bottom .footer_social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    line-height: 30px;
+}
+
+footer .footer_bottom .footer_social a i.fab {
+    background-color: transparent;
+    color: white;
+
+}
+
+footer .footer_bottom .footer_social a:hover {
+    background-color: #f9c400;
+    color: rgba(132, 96, 246, 0.8);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: sans-serif;
+    margin: auto;
+    color: #777;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+div.container {
+    width: 1110px;
+    margin: auto;
+}
+
+button.content_btn {
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: rgba(132, 96, 246, 0.8);
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.content_btn a {
+    text-decoration: none;
+}
+
+button.content_btn a span {
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+header div.header_info button.content_btn:hover a span,
+section.keep form button:hover a span {
+    padding-left: 20px;
+}
+
+nav {
+    /* background-color: blue; */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+nav div.logo {
+    width: 70%;
+    float: left;
+}
+
+nav div.logo img {
+    width: 13%;
+    padding: 10px 0;
+}
+
+nav div.list {
+    width: 30%;
+    float: left;
+}
+
+nav div.list ul {}
+
+nav div.list ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+nav div.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+nav div.list ul li:last-child {
+    padding-right: 0;
+}
+
+nav div.list ul li:hover a {
+    color: #f3487f;
+}
+
+header {
+    width: 100%;
+    height: 630px;
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+header div.overlay_bg {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(132, 96, 246, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header div.header_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+header div.header_info h4.content_head {
+    font-size: 55px;
+    line-height: 57px;
+    margin: 0 0 23px;
+    font-weight: 100;
+}
+
+header div.header_info p.content_p {
+    font-size: 14px;
+    margin: 40px 0 50px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section.history {
+    width: 100%;
+    height: 850px;
+    background-color: #f2f5f7;
+    padding: 90px 0;
+
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+section.history div.heading h2 {
+
+    /* font-weight:bold; */
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    color: #222222;
+    line-height: 1.5em;
+}
+
+section.history div.heading p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+section.history div.history_desc {
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+div.history_img {
+    width: 33.33%;
+    float: left;
+
+
+}
+
+div.history_img img {
+    margin: -40px 20px;
+}
+
+section.history div.history_desc div.history_info {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    margin-left: 7%;
+}
+
+section.history div.history_desc div.history_info div.btn_list {
+    margin: 30px 0;
+}
+
+section.history div.history_desc div.history_info div.btn_list button {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    margin: 0 15px 15px 15px;
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span {
+    color: rgba(132, 96, 246, 0.8);
+    text-transform: uppercase;
+    padding-left: 5px;
+
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span i.fa {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover,
+section.history div.history_desc div.history_info div.btn_list button:first-child {
+    background-color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover a span,
+section.history div.history_desc div.history_info div.btn_list button:first-child a span {
+    color: white;
+}
+
+section.history div.history_desc div.history_info h3 {
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+section.history div.history_desc div.history_info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+section.skills {
+    width: 100%;
+    height: 520px;
+    background: #f3487f;
+}
+
+section.skills div.skills_block {
+    width: 25%;
+    height: 260px;
+    float: left;
+    text-align: center;
+}
+
+section.skills div.skills_block.block1,
+section.skills div.skills_block.block3,
+section.skills div.skills_block.block6,
+section.skills div.skills_block.block8 {
+    background: white;
+    line-height: 50px;
+    color: #000;
+    padding-top: 70px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.skills div.skills_block.block1:hover,
+section.skills div.skills_block.block3:hover,
+section.skills div.skills_block.block6:hover,
+section.skills div.skills_block.block8:hover {
+    background: #f3487f;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+section.skills div.skills_block.block1:hover i.fas,
+section.skills div.skills_block.block3:hover i.fas,
+section.skills div.skills_block.block6:hover i.fas,
+section.skills div.skills_block.block8:hover i.fas {
+    color: #fff;
+}
+
+section.skills div.skills_block.block1 h2,
+section.skills div.skills_block.block3 h2,
+section.skills div.skills_block.block6 h2,
+section.skills div.skills_block.block8 h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+section.skills div.skills_block.block1 i.fas,
+section.skills div.skills_block.block3 i.fas,
+section.skills div.skills_block.block6 i.fas,
+section.skills div.skills_block.block8 i.fas {
+    color: #f3487f;
+}
+
+section.skills div.skills_block.block2,
+section.skills div.skills_block.block4,
+section.skills div.skills_block.block5,
+section.skills div.skills_block.block7 {
+    background: #6f7598;
+    color: white;
+    padding: 100px 20px;
+}
+
+section.exp,
+section.projects {
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    margin: auto;
+    font-family: sans-serif;
+    /* background: red; */
+
+}
+
+section.exp p {
+    color: #777;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 40px 0;
+
+    font-family: sans-serif;
+}
+
+section.exp h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #222222;
+    line-height: 1.5em;
+
+    font-family: sans-serif;
+}
+
+section.exp div.vector {}
+
+section.exp div.vector div.vector_img {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+section.exp div.vector div.vector_img img {
+    width: 80%;
+}
+
+section.exp div.vector div.vector_desc {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+section.exp div.vector div.vector_desc p,
+section.exp div.vector div.vector_desc h5,
+section.exp div.vector div.vector_desc h2 {
+    text-align: left;
+}
+
+section.exp div.vector div.vector_desc p {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: -23px;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h5 {
+    font-size: 20px;
+    font-weight: 190;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h2 {
+    /* margin-bottom:10px; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section.exp div.vector_desc button {
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.exp div.vector_desc button span {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.exp div.vector_desc button:hover {
+    background-color: rgba(132, 96, 246, 0.8);
+
+
+}
+
+section.exp div.vector_desc button:hover span {
+    color: white
+}
+
+section.projects {
+    background-color: #5dd1e3;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    height: 650px;
+}
+
+section.projects h2,
+section.keep h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+section.projects p,
+section.keep p {
+    font-size: 18px;
+    padding: 17px 0 40px 0;
+}
+
+section.projects div.projects_block {
+    overflow: auto;
+    width: 100%;
+    height: 290px;
+}
+
+section.projects div.projects_block .block_left {
+    width: 66.67%;
+    height: 100%;
+    background-image: url("../img/c1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+section.projects div.projects_block .block_right {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 40px 40px;
+    color: black;
+    text-align: left;
+
+}
+
+section.projects div.projects_block .block_right h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+section.projects div.projects_block .block_right p {
+    color: #777;
+    font-size: 17px;
+}
+
+section.keep {
+    height: 620px;
+    width: 100%;
+    /* background:red; */
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+
+section.keep h2 {
+    color: black;
+}
+
+section.keep p {}
+
+
+section.keep form {
+    position: relative;
+}
+
+section.keep form input {
+    width: 40%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+
+    margin: 0 1% 25px 1%;
+}
+
+section.keep form textarea {
+
+    width: 82%;
+    height: 106px;
+    margin-bottom: 25px;
+}
+
+section.keep form button {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 4000px;
+    font-family: sans-serif;
+    margin: auto;
+    color: #777;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+div.container {
+    width: 1110px;
+    margin: auto;
+}
+
+button.content_btn {
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: rgba(132, 96, 246, 0.8);
+    border: 1px solid #fff;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+button.content_btn a {
+    text-decoration: none;
+}
+
+button.content_btn a span {
+    color: white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+header div.header_info button.content_btn:hover a span {
+    padding-left: 20px;
+}
+
+nav {
+    /* background-color: blue; */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+nav div.logo {
+    width: 70%;
+    float: left;
+}
+
+nav div.logo img {
+    width: 13%;
+    padding: 10px 0;
+}
+
+nav div.list {
+    width: 30%;
+    float: left;
+}
+
+nav div.list ul {}
+
+nav div.list ul li {
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+nav div.list ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+nav div.list ul li:last-child {
+    padding-right: 0;
+}
+
+nav div.list ul li:hover a {
+    color: #f3487f;
+}
+
+header {
+    width: 100%;
+    height: 630px;
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+header div.overlay_bg {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(132, 96, 246, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header div.header_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+header div.header_info h4.content_head {
+    font-size: 55px;
+    line-height: 57px;
+    margin: 0 0 23px;
+    font-weight: 100;
+}
+
+header div.header_info p.content_p {
+    font-size: 14px;
+    margin: 40px 0 50px 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+section.history {
+    width: 100%;
+    height: 850px;
+    background-color: #f2f5f7;
+    padding: 90px 0;
+
+}
+
+.heading {
+    text-align: center;
+    margin: auto;
+}
+
+section.history div.heading h2 {
+
+    /* font-weight:bold; */
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    color: #222222;
+    line-height: 1.5em;
+}
+
+section.history div.heading p {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+section.history div.history_desc {
+    width: 100%;
+    height: 467px;
+    background-color: #fff;
+    margin-top: 70px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+div.history_img {
+    width: 33.33%;
+    float: left;
+
+
+}
+
+div.history_img img {
+    margin: -40px 20px;
+}
+
+section.history div.history_desc div.history_info {
+    width: 50%;
+    float: left;
+    padding: 20px 0;
+    margin-left: 7%;
+}
+
+section.history div.history_desc div.history_info div.btn_list {
+    margin: 30px 0;
+}
+
+section.history div.history_desc div.history_info div.btn_list button {
+    padding: 0px 20px;
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    margin: 0 15px 15px 15px;
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span {
+    color: rgba(132, 96, 246, 0.8);
+    text-transform: uppercase;
+    padding-left: 5px;
+
+}
+
+section.history div.history_desc div.history_info div.btn_list button a span i.fa {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover,
+section.history div.history_desc div.history_info div.btn_list button:first-child {
+    background-color: rgba(132, 96, 246, 0.8);
+}
+
+section.history div.history_desc div.history_info div.btn_list button:hover a span,
+section.history div.history_desc div.history_info div.btn_list button:first-child a span {
+    color: white;
+}
+
+section.history div.history_desc div.history_info h3 {
+    color: #000;
+    font-size: 27px;
+    margin-bottom: 22px;
+}
+
+section.history div.history_desc div.history_info p {
+    color: #777;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+section.skills {
+    width: 100%;
+    height: 520px;
+    background: #f3487f;
+}
+
+section.skills div.skills_block {
+    width: 25%;
+    height: 260px;
+    float: left;
+    text-align: center;
+}
+
+section.skills div.skills_block.block1,
+section.skills div.skills_block.block3,
+section.skills div.skills_block.block6,
+section.skills div.skills_block.block8 {
+    background: white;
+    line-height: 50px;
+    color: #000;
+    padding-top: 70px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.skills div.skills_block.block1:hover,
+section.skills div.skills_block.block3:hover,
+section.skills div.skills_block.block6:hover,
+section.skills div.skills_block.block8:hover {
+    background: #f3487f;
+    line-height: 50px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+section.skills div.skills_block.block1:hover i.fas,
+section.skills div.skills_block.block3:hover i.fas,
+section.skills div.skills_block.block6:hover i.fas,
+section.skills div.skills_block.block8:hover i.fas {
+    color: #fff;
+}
+
+section.skills div.skills_block.block1 h2,
+section.skills div.skills_block.block3 h2,
+section.skills div.skills_block.block6 h2,
+section.skills div.skills_block.block8 h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+section.skills div.skills_block.block1 i.fas,
+section.skills div.skills_block.block3 i.fas,
+section.skills div.skills_block.block6 i.fas,
+section.skills div.skills_block.block8 i.fas {
+    color: #f3487f;
+}
+
+section.skills div.skills_block.block2,
+section.skills div.skills_block.block4,
+section.skills div.skills_block.block5,
+section.skills div.skills_block.block7 {
+    background: #6f7598;
+    color: white;
+    padding: 100px 20px;
+}
+
+section.exp,
+section.projects {
+    width: 100%;
+    height: 700px;
+    padding: 100px 0;
+    margin: auto;
+    font-family: sans-serif;
+    /* background: red; */
+
+}
+
+section.exp p {
+    color: #777;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0 40px 0;
+
+    font-family: sans-serif;
+}
+
+section.exp h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #222222;
+    line-height: 1.5em;
+
+    font-family: sans-serif;
+}
+
+section.exp div.vector {}
+
+section.exp div.vector div.vector_img {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+section.exp div.vector div.vector_img img {
+    width: 80%;
+}
+
+section.exp div.vector div.vector_desc {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+section.exp div.vector div.vector_desc p,
+section.exp div.vector div.vector_desc h5,
+section.exp div.vector div.vector_desc h2 {
+    text-align: left;
+}
+
+section.exp div.vector div.vector_desc p {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: -23px;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h5 {
+    font-size: 20px;
+    font-weight: 190;
+    color: #777;
+}
+
+section.exp div.vector div.vector_desc h2 {
+    /* margin-bottom:10px; */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+section.exp div.vector_desc button,
+section.keep form button {
+    background-color: white;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+section.exp div.vector_desc button span,
+section.keep form button span {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.exp div.vector_desc button:hover,
+section.keep form button:hover {
+    background-color: rgba(132, 96, 246, 0.8);
+
+
+}
+
+section.exp div.vector_desc button:hover span,
+section.keep form button:hover span {
+    color: white
+}
+
+section.projects {
+    background-color: #5dd1e3;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+    height: 650px;
+}
+
+section.projects h2,
+section.keep h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+section.projects p,
+section.keep p {
+    font-size: 18px;
+    padding: 17px 0 40px 0;
+}
+
+section.projects div.projects_block {
+    overflow: auto;
+    width: 100%;
+    height: 290px;
+}
+
+section.projects div.projects_block .block_left {
+    width: 66.67%;
+    height: 100%;
+    background-image: url("../img/c1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+section.projects div.projects_block .block_right {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 40px 40px;
+    color: black;
+    text-align: left;
+
+}
+
+section.projects div.projects_block .block_right h5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+section.projects div.projects_block .block_right p {
+    color: #777;
+    font-size: 17px;
+}
+
+section.keep {
+    height: 620px;
+    width: 100%;
+    /* background:red; */
+    padding: 70px 0;
+    margin: auto;
+    text-align: center;
+}
+
+section.keep h2 {
+    color: black;
+}
+
+section.keep p {}
+
+
+section.keep form {
+    position: relative;
+    height: 278px;
+}
+
+section.keep form input {
+    width: 40%;
+    height: 50px;
+    padding: 1%;
+    text-align: left;
+
+    margin: 0 1% 25px 1%;
+}
+
+section.keep form textarea {
+
+    width: 82%;
+    height: 106px;
+    margin-bottom: 25px;
+}
+
+section.keep form button {
+    position: absolute;
+    bottom: 0;
+    left: 77%;
+
+}
+
+section.sub_area {
+    width: 100%;
+    height: 390px;
+    background: #f9c400;
+    padding: 100px 0;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+section.sub_area h2 {
+    line-height: 1.5em;
+    font-size: 30px;
+}
+
+section.sub_area form {
+    position: relative;
+}
+
+section.sub_area form input {
+    width: 40%;
+    height: 42px;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    margin: 40px 0;
+    border-radius: 20px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+section.sub_area form button {
+    position: absolute;
+    bottom: 40px;
+    left: 54.5%;
+    background-color: white;
+    color: rgba(132, 96, 246, 0.8);
+    border: 1.5px solid #777;
+
+}
+
+section.sub_area form button a span,
+section.sub_area form button a span .fas {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+section.sub_area form button:hover {
+    background-color: rgba(132, 96, 246, 1);
+    /* background-color:red; */
+
+}
+
+section.sub_area form button:hover a span,
+section.sub_area form button:hover a span .fas {
+    color: white;
+}
+
+footer {
+    padding: 100px 0 0 0;
+    width: 100%;
+    height: 480px;
+    background-color: #4e5375;
+    color: white;
+}
+
+footer .footer_list {
+    width: 25%;
+    height: 80%;
+    float: left;
+
+}
+
+.footer_list_img {
+    width: 25%;
+    height: 80%;
+    float: left;
+}
+
+.footer_list_img {
+    overflow: auto;
+}
+
+footer .footer_list .list h3,
+footer .footer_list_img .list h3 {
+    padding: 20px 0;
+}
+
+.footer_list .list ul {
+    list-style: none;
+}
+
+.footer_list .list ul li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_list .list ul li:hover a {
+    color: rgba(132, 96, 246, 0.8);
+}
+
+.list_img {
+    width: 23%;
+    height: 50%;
+    float: left;
+    margin: 0 1%;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer .footer_bottom {
+
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+}
+
+footer .footer_bottom .copyright {
+    width: 75%;
+    float: left;
+}
+
+footer .footer_bottom .copyright p {
+    color: white;
+    padding-top: 50px;
+}
+
+footer .footer_bottom .copyright p i.fa {
+    color: #f3487f;
+}
+
+footer .footer_bottom .copyright p span {
+    color: #f9c400;
+    cursor: pointer;
+}
+
+footer .footer_bottom .footer_social {
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+    text-align: right;
+}
+
+footer .footer_bottom .footer_social a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgba(132, 96, 246, 0.8);
+    line-height: 30px;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -ms-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+}
+
+footer .footer_bottom .footer_social a i.fab {
+    background-color: transparent;
+    color: white;
+
+}
+
+footer .footer_bottom .footer_social a:hover {
+    background-color: #f9c400;
+
+}
+
+footer .footer_bottom .footer_social a:hover i.fab {
+    color: #4e5375;
+}
